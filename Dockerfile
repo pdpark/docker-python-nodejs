@@ -1,5 +1,5 @@
-FROM python:stretch
-MAINTAINER Nikolai R Kristiansen <nikolaik@gmail.com>
+FROM python:3.6.6-stretch
+MAINTAINER Antonio Storni <antoniostorni@gmail.com>
 
 # Install node prereqs, nodejs and yarn
 # Ref: https://deb.nodesource.com/setup_10.x
