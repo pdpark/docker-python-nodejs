@@ -6,7 +6,7 @@
 - Node: 10.x
 - npm: 6.x
 - yarn: stable
-- Python: latest
+- Python: 3.5
 - pip: latest
 - pipenv: latest
 
