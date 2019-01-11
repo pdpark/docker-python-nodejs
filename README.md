@@ -1,34 +1,34 @@
-[![Travis](https://img.shields.io/travis/nikolaik/docker-python-nodejs.svg?style=flat-square)](https://travis-ci.org/nikolaik/docker-python-nodejs)
-[![Pulls](https://img.shields.io/docker/pulls/nikolaik/python-nodejs.svg?style=flat-square)](https://hub.docker.com/r/nikolaik/python-nodejs/)
-[![Release](https://img.shields.io/github/release/nikolaik/docker-python-nodejs.svg?style=flat-square)](https://github.com/nikolaik/docker-python-nodejs/releases)
+[![Travis](https://img.shields.io/travis/pdpark/docker-python-nodejs.svg?style=flat-square)](https://travis-ci.org/pdpark/docker-python-nodejs)
+[![Pulls](https://img.shields.io/docker/pulls/pdpark/python-nodejs.svg?style=flat-square)](https://hub.docker.com/r/pdpark/python-nodejs/)
+[![Release](https://img.shields.io/github/release/pdpark/docker-python-nodejs.svg?style=flat-square)](https://github.com/pdpark/docker-python-nodejs/releases)
 
-## Python (latest) with Node.js 10.x based on [beevelop/nodejs-python](https://github.com/beevelop/docker-nodejs-python)
+## Python (latest 3.6 version) with Node.js 10.x based on [nikolaik/nodejs-python](https://github.com/nikolaik/docker-nodejs-python)
 - Node: 10.x
 - npm: 6.x
 - yarn: stable
-- Python: 3.5
+- Python: 3.6.x
 - pip: latest
 - pipenv: latest
 
 ----
 ### Pull from Docker Hub
 ```
-docker pull nikolaik/python-nodejs:latest
+docker pull pdpark/python-nodejs:latest
 ```
 
 ### Build from GitHub
 ```
-docker build -t nikolaik/python-nodejs github.com/nikolaik/docker-python-nodejs
+docker build -t pdpark/python-nodejs github.com/pdpark/docker-python-nodejs
 ```
 
 ### Run image
 ```
-docker run -it nikolaik/python-nodejs bash
+docker run -it pdpark/python-nodejs bash
 ```
 
 ### Use as base image
 ```Dockerfile
-FROM nikolaik/python-nodejs:latest
+FROM pdpark/python-nodejs
 ```
 
 ## Disclaimer
