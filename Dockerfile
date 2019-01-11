@@ -1,4 +1,4 @@
-FROM python:3.6.6-stretch
+FROM python:3.6-stretch
 MAINTAINER Antonio Storni <antoniostorni@gmail.com>
 
 # Install node prereqs, nodejs and yarn
