@@ -13,7 +13,7 @@
 ----
 ### Pull from Docker Hub
 ```
-docker pull pdpark/python-nodejs:latest
+docker pull pdpark/python-nodejs
 ```
 
 ### Build from GitHub
