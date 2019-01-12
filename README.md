@@ -1,4 +1,3 @@
-[![Travis](https://img.shields.io/travis/pdpark/docker-python-nodejs.svg?style=flat-square)](https://travis-ci.org/pdpark/docker-python-nodejs)
 [![Pulls](https://img.shields.io/docker/pulls/pdpark/python-nodejs.svg?style=flat-square)](https://hub.docker.com/r/pdpark/python-nodejs/)
 [![Release](https://img.shields.io/github/release/pdpark/docker-python-nodejs.svg?style=flat-square)](https://github.com/pdpark/docker-python-nodejs/releases)
 
